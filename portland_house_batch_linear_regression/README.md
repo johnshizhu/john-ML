@@ -72,3 +72,9 @@ This function performs gradient descent to fit w,b.
  
     return w, b, J_history, p_history #return w and J,w history for graphing
 ```
+## Results (Scatterplot)
+![portlandHousingFigure](https://user-images.githubusercontent.com/115199074/231047602-01c19749-6c93-40de-ade8-cb9abca573f2.png)
+
+## Note
+- This code my learning process from the Andrew Ng machine learning course on coursera
+- [The portland dataset](https://www.kaggle.com/datasets/kennethjohn/housingprice")
