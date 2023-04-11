@@ -3,4 +3,4 @@ I will be uploading code that I have used in my process studying machine learnin
 <br>
 This includes Open courseware code or other projects that I have been working on.
 
-### Please feel free to check out any of this work for yourself!
+
