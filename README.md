@@ -1,6 +1,9 @@
 # Welcome to my Machine Learning Repository
-I will be uploading code that I have used in my process studying machine learning here.
+I will be uploading code documenting my process studying machine learning.
 <br>
-This includes Open courseware code or other projects that I have been working on.
+
+## Topics Included
+1. Batch Linear Regression (portland dataset)
+
 
 
