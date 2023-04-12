@@ -113,14 +113,16 @@ w_init = 0
 b_init = 0
 # Initial gradient descent settings
 iterations = 10000
-tmp_alpha = 0.00000001
+tmp_alpha = 0.0000001
 # Run gradient descent
 w_final, b_final, J_hist, p_hist = gradient_descent(x_train, y_train, w_init, b_init, tmp_alpha, iterations, compute_cost, compute_gradient)
 print(f"(w,b) found by gradient descent: ({w_final:8.4f},{b_final:8.4f})")
 
 # Display the data with the newly created line of best fit
-x = np.linspace(0,8000,100)
+x = np.linspace(0,5000,100)
 y = w_final*x + b_final
 plt.scatter(x_train, y_train)
 plt.plot(x,y,'-r')
+plt.xlabel("House Size (sqft)")
+plt.ylabel("House Price")
 plt.show()
