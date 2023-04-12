@@ -3,7 +3,7 @@ I will be uploading code documenting my process studying machine learning.
 <br>
 
 ## Topics Included
-1. Batch Linear Regression (portland dataset)
-
+1. Batch (single) Linear Regression (portland dataset)
+2. Batch (multiple) Linear Regression (portland dataset)
 
 
