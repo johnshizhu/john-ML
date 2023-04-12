@@ -1,3 +1,4 @@
+from mpl_toolkits import mplot3d
 import copy, math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -159,13 +160,12 @@ initial_b = 0
 # print(f"initial_b {initial_b}")
 
 # Settings
-iterations = 100000
+iterations = 10000
 alpha = 0.0000000001
 
 # Gradient descent
 w_final, b_final, J_hist = gradient_descent(X_train, y_train, initial_w, initial_b, compute_cost, compute_gradient, alpha, iterations)
 print(f"b,w found by gradient descent: {b_final},{w_final} ")
-
 
 
 
