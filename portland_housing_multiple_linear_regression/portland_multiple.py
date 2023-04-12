@@ -78,17 +78,8 @@ def compute_gradient(X, y, w, b):
     dj_db = 0
     
     for i in range(m):
-        # print(f"X[i] = {X[i]}")
-        # print(f"w = {w}")
-        # print(f"b = {b}")
-        # print(f"y[i] = {y[i]}")
-        # print("BREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK")
         err = (np.dot(X[i],w) + b) - y[i]     # calculating the err --> prediction - actual
         for j in range(n):
-          # print(f"dj_dw = {dj_dw}")
-          # print(f"err = {err}")
-          # print(f"j = {j}")
-          # print(f"X[i,j] = {X[i,j]}")
           dj_dw[j] = dj_dw[j] + err * X[i, j]  # n is the number of features, updating for change in w
         dj_db = dj_db + err                   # updating the error for change in b
 
@@ -166,6 +157,3 @@ alpha = 0.0000000001
 # Gradient descent
 w_final, b_final, J_hist = gradient_descent(X_train, y_train, initial_w, initial_b, compute_cost, compute_gradient, alpha, iterations)
 print(f"b,w found by gradient descent: {b_final},{w_final} ")
-
-
-
