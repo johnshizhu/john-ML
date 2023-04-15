@@ -100,3 +100,5 @@ def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, 
             print(f"Iteration {i}: Cost={J_history[-1]} w={w} b={b} ")
     return w, b, J_history
 ```
+### Note
+Learning rate (alpha) can change the efficacy of this function high learning ratge can results in ineffective function, while low learning rate will result in a slow learning process. 
