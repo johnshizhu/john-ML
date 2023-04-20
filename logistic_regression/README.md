@@ -2,7 +2,7 @@
 Functions:
 
 ### Cost Function
-```
+```python
     m = X.shape[0]
     cost = 0.0
     for i in range(m):
@@ -16,7 +16,7 @@ Functions:
 Returning the cost
 
 ### Computing Logistic Gradient
-```
+```python
     m,n = X.shape
     dj_dw = np.zeros((n,))                           
     dj_db = 0.
@@ -36,7 +36,7 @@ Returning the cost
 Returning dj_dw and dj_db
 
 ### Performing Logistic Gradient Descent
-```
+```python
     # An array to store cost J and w's at each iteration primarily for graphing later
     J_history = []
     w = copy.deepcopy(w_in)  #avoid modifying global w within function
