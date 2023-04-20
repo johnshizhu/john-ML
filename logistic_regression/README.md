@@ -60,3 +60,7 @@ Returning dj_dw and dj_db
     return w, b, J_history
 ```
 Performs logistic regression and prints out the decreasing cost at specified intervals
+<br><br>
+Example of a line created by logistic regression for a small dataset, where shading is correlated with certainty of 0 or 1
+![LogisticRegExample](https://user-images.githubusercontent.com/115199074/233491243-860cee68-5230-4631-8c06-c87e3d1985ba.png)
+
