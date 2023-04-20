@@ -9,7 +9,7 @@ x (ndarray (m,)) -->  Data, m examples <br>
 y (ndarray (m,)) -->  Target values    <br>
 w,b (scalar)    --> model parameters 
 
-```
+```python
 def compute_cost(x,y,w,b):
     m = x.shape[0] 
     cost = 0
@@ -26,7 +26,7 @@ This function computes gradient descent for batch lienar regression <br>
         x (ndarray (m,)): Data, m examples <br>
         y (ndarray (m,)): target values    <br>
         w,b (scalar)    : model parameters <br>
-```
+```python
 m = x.shape[0]    
     dj_dw = 0
     dj_db = 0
@@ -45,7 +45,7 @@ m = x.shape[0]
 
 ## Perform Gradient Descent
 This function performs gradient descent to fit w,b.
-```
+```python
 # An array to store cost J and w's at each iteration primarily for graphing later
     J_history = []
     p_history = []
