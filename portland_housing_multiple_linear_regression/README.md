@@ -3,7 +3,7 @@ This is code for multiple linear regression of the portland housing dataset, con
 
 ## Cost Function
 Function to compute the "cost" of the current state of the model. A measure of how accurate the model is.
-```
+```python
 def compute_cost(X, y, w, b):
     """
     compute cost function
@@ -27,7 +27,7 @@ def compute_cost(X, y, w, b):
 
 ## Gradient Descent
 Function to determine the rate of change (partial derivative) of the cost function.
-```
+```python
 def compute_gradient(X, y, w, b):
     """
     Computes the gradient for linear regression 
@@ -56,7 +56,7 @@ def compute_gradient(X, y, w, b):
 
 ## Perform Gradient Descent
 A function to perform gradient descent based on your training data set and specified learning rate and number of iterations.
-```
+```python
 def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters):
     """
     Performs batch gradient descent to learn w and b. Updates w and b by taking 
