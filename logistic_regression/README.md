@@ -63,4 +63,8 @@ Performs logistic regression and prints out the decreasing cost at specified int
 <br><br>
 Example of a line created by logistic regression for a small dataset, where shading is correlated with certainty of 0 or 1
 ![LogisticRegExample](https://user-images.githubusercontent.com/115199074/233491243-860cee68-5230-4631-8c06-c87e3d1985ba.png)
-
+<br>
+### Note
+Changes to "alpha" or the learning rate will change the "amount" at which each step of gradient descent takes.
+<br>
+When using the code, a small alpha can result in very slow run time and large alpha can result in overshooting your best answer.
