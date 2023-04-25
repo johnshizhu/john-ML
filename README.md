@@ -9,3 +9,4 @@ I will be uploading code documenting my process studying machine learning.
 1. Batch (single) Linear Regression (portland dataset)
 2. Batch (multiple) Linear Regression (portland dataset)
 3. Batch Logistic Regression
+4. Regression with Regularization
