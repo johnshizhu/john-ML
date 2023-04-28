@@ -1,4 +1,5 @@
 # Regularization
+Implementation of Regularization using NumPy with Linear and Logistic Regression
 
 ### Compute cost of linear regression
 ```python
