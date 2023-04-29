@@ -1,6 +1,8 @@
 # Forward Propogation
 Implementation of forward propogation from scratch and using Tensorflow
 
+<br>
+Layer functionality with a_in as inputs and W and b as parameters
 ```python
 def dense(a_in, W, b):
     '''
