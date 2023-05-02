@@ -12,3 +12,4 @@ Graphics Card: Nvidia RTX 3070
 3. Batch Logistic Regression
 4. Regression with Regularization
 5. Tensorflow implementation of Neural Network (Coffee Roast data)
+6. Forward Propogation from scratch
