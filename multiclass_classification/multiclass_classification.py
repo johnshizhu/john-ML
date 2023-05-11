@@ -1,10 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
-import keras.api._v2.keras as keras
+#import keras.api._v2.keras as keras
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from keras import Sequential
+from keras.layers import Dense
 
 # make_blobs to make a training dataset
 # making a 4 class dataset
