@@ -15,3 +15,4 @@ Graphics Card: Nvidia RTX 3070
 6. Forward Propogation from scratch
 7. Softmax
 8. Multi-Class Classification
+9. MNIST Multi-Class Classification
