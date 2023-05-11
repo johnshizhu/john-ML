@@ -5,6 +5,8 @@
 I will be uploading code documenting my process studying machine learning.
 <br>
 Graphics Card: Nvidia RTX 3070
+<br><br>
+Data used for training is not my own. 
 
 ## Topics Included
 1. Batch (single) Linear Regression (portland dataset)
