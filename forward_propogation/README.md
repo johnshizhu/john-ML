@@ -1,5 +1,5 @@
 # Forward Propogation
-Implementation of forward propogation from scratch and using Tensorflow
+Implementation of forward propogation from scratch and using Tensorflow and Numpy.
 ### Compute Dense Layer
 Layer functionality with a_in as inputs and W and b as parameters
 <br>
