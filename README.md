@@ -1,9 +1,7 @@
 # Welcome to my Machine Learning Repository
 ### Languages and Tools
 [![My Skills](https://skills.thijs.gg/icons?i=python,tensorflow,pytorch)](https://skills.thijs.gg)
-<br>
-I will be uploading code documenting my process studying machine learning.
-<br>
+<br><br>
 Graphics Card: Nvidia RTX 3070
 <br><br>
 Data used for training is not my own. 
