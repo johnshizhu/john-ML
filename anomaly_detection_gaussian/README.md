@@ -1,5 +1,7 @@
 # Anomaly Detection using Gaussian
 
+Python implementation of Anomaly Detection
+
 # Estimate Gaussian
 ```python
 def estimate_gaussian(X): 
